@@ -4,6 +4,9 @@ module.exports = {
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   content: [],
   theme: {
+    screens: {
+      md: "1024px",
+    },
     extend: {},
   },
   plugins: [],
