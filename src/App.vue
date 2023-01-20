@@ -11,7 +11,9 @@ import contentPart from "./components/content-part.vue";
         alt="bg"
       />
     </div>
-    <div className="flex flex-col md:w-[50%] md:pl-[7.5rem]">
+    <div
+      className="flex flex-col md:w-[50%] pl-6 pr-6 md:pr-0 md:pl-[7.5rem] -mt-[180px] md:mt-0"
+    >
       <contentPart></contentPart>
     </div>
   </div>
