@@ -3,10 +3,10 @@ import contentPart from "./components/content-part.vue";
 </script>
 
 <template className="">
-  <div className="flex w-full flex-col md:flex-row">
+  <div className="flex w-full flex-col md:flex-row ">
     <div className="md:w-[50%]">
       <img
-        className="md:min-h-screen object-cover"
+        className="md:min-h-screen object-cover max-h-screen"
         src="../src/assets/images/bg.svg"
         alt="bg"
       />
